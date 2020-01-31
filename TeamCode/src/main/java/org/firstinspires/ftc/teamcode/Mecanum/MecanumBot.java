@@ -94,11 +94,13 @@ public class MecanumBot {
         rightIntakeMotor.setDirection(DcMotor.Direction.REVERSE);
 
         // Set all motors to zero power
-        // this.setWheelPower(0);
+        setPower(0);
+        /*
         leftFront.setPower(0);
         rightFront.setPower(0);
         leftBack.setPower(0);
         rightBack.setPower(0);
+        */
         rightIntakeMotor.setPower(0);
         leftIntakeMotor.setPower(0);
 
